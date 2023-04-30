@@ -23,17 +23,25 @@ $this->menu=array(
 	'attributes'=>array(
 		'id',
 		[
-			'name'=>'employee_id',
-			'value'=>$model->employee->name,
+			'label' => 'Employee',
+			'value' => $model->employee->name,
 		],
 		[
-			'name'=>'patient_id',
-			'value'=>$model->patient->name,
+			'label' => 'Patient',
+			'value' => $model->patient->name,
 		],
 		[
-			'name'=>'medicine_id',
-			'value'=>$model->medicine->title,
+			'label' => 'Action',
+			'value' => $model->action->title,
 		],
+		[
+			'label' => 'Medicine',
+			'value' => $model->medicine->title,
+		],
+		// 'employee_id',
+		// 'patient_id',
+		// 'action_id',
+		// 'medicine_id',
 		'price',
 		'date',
 		'notes',

@@ -19,6 +19,7 @@ class m230429_110116_create_handlings_table extends CDbMigration
 			'id' => 'pk',
 			'employee_id' => 'int NOT NULL',
 			'patient_id' => 'int NOT NULL',
+			'action_id' => 'int NULL',
 			'medicine_id' => 'int NULL',
 			'price' => 'float NOT NULL',
 			'date' => 'date NOT NULL',
@@ -40,6 +41,16 @@ class m230429_110116_create_handlings_table extends CDbMigration
 			'handlings', 
 			'patient_id', 
 			'patients', 
+			'id', 
+			'SET NULL', 
+			'CASCADE'
+		);
+
+		$this->addForeignKey(
+			'fk_handlings_action_id', 
+			'handlings', 
+			'action_id', 
+			'actions', 
 			'id', 
 			'SET NULL', 
 			'CASCADE'

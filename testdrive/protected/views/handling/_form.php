@@ -22,27 +22,34 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'employee_id'); ?>
 		<!-- <?php echo $form->textField($model,'employee_id'); ?> -->
-		<?php echo $form->dropDownList($model,'employee_id', CHtml::listData(Employee::model()->findAll(), 'id', 'name'), array('empty' => 'Select an employee')); ?>
+		<?php echo $form->dropDownList($model,'employee_id', CHtml::listData(Employee::model()->findAll(), 'id', 'name'), array('empty' => 'Select Employee')); ?>
 		<?php echo $form->error($model,'employee_id'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'patient_id'); ?>
 		<!-- <?php echo $form->textField($model,'patient_id'); ?> -->
-		<?php echo $form->dropDownList($model,'patient_id', CHtml::listData(Patient::model()->findAll(), 'id', 'name'), array('empty' => 'Select an employee')); ?>
+		<?php echo $form->dropDownList($model,'patient_id', CHtml::listData(Patient::model()->findAll(), 'id', 'name'), array('empty' => 'Select Patient')); ?>
 		<?php echo $form->error($model,'patient_id'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'action_id'); ?>
+		<!-- <?php echo $form->textField($model,'action_id'); ?> -->
+		<?php echo $form->dropDownList($model,'action_id', CHtml::listData(Action::model()->findAll(), 'id', 'title'), array('empty' => 'Select Action')); ?>
+		<?php echo $form->error($model,'action_id'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'medicine_id'); ?>
 		<!-- <?php echo $form->textField($model,'medicine_id'); ?> -->
-		<?php echo $form->dropDownList($model,'medicine_id', CHtml::listData(Medicine::model()->findAll(), 'id', 'title'), array('empty' => 'Select an employee')); ?>
+		<?php echo $form->dropDownList($model,'medicine_id', CHtml::listData(Medicine::model()->findAll(), 'id', 'title'), array('empty' => 'Select Medicine')); ?>
 		<?php echo $form->error($model,'medicine_id'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'price'); ?>
-		<?php echo $form->textField($model,'price'); ?>
+		<?php echo $form->numberField($model,'price'); ?>
 		<?php echo $form->error($model,'price'); ?>
 	</div>
 

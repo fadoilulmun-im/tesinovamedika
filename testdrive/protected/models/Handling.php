@@ -7,6 +7,7 @@
  * @property integer $id
  * @property integer $employee_id
  * @property integer $patient_id
+ * @property integer $action_id
  * @property integer $medicine_id
  * @property double $price
  * @property string $date
@@ -15,6 +16,7 @@
  * The followings are the available model relations:
  * @property Employees $employee
  * @property Patients $patient
+ * @property Actions $action
  * @property Medicines $medicine
  */
 class Handling extends CActiveRecord
@@ -36,11 +38,11 @@ class Handling extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('employee_id, patient_id, price, date, notes', 'required'),
-			array('employee_id, patient_id, medicine_id', 'numerical', 'integerOnly'=>true),
+			array('employee_id, patient_id, action_id, medicine_id', 'numerical', 'integerOnly'=>true),
 			array('price', 'numerical'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, employee_id, patient_id, medicine_id, price, date, notes', 'safe', 'on'=>'search'),
+			array('id, employee_id, patient_id, action_id, medicine_id, price, date, notes', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -54,6 +56,7 @@ class Handling extends CActiveRecord
 		return array(
 			'employee' => array(self::BELONGS_TO, 'Employee', 'employee_id'),
 			'patient' => array(self::BELONGS_TO, 'Patient', 'patient_id'),
+			'action' => array(self::BELONGS_TO, 'Action', 'action_id'),
 			'medicine' => array(self::BELONGS_TO, 'Medicine', 'medicine_id'),
 		);
 	}
@@ -67,6 +70,7 @@ class Handling extends CActiveRecord
 			'id' => 'ID',
 			'employee_id' => 'Employee',
 			'patient_id' => 'Patient',
+			'action_id' => 'Action',
 			'medicine_id' => 'Medicine',
 			'price' => 'Price',
 			'date' => 'Date',
@@ -95,6 +99,7 @@ class Handling extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('employee_id',$this->employee_id);
 		$criteria->compare('patient_id',$this->patient_id);
+		$criteria->compare('action_id',$this->action_id);
 		$criteria->compare('medicine_id',$this->medicine_id);
 		$criteria->compare('price',$this->price);
 		$criteria->compare('date',$this->date,true);

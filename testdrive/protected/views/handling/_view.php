@@ -17,6 +17,10 @@
 	<?php echo CHtml::encode($data->patient->name); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('action_id')); ?>:</b>
+	<?php echo CHtml::encode($data->action->title); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('medicine_id')); ?>:</b>
 	<?php echo CHtml::encode($data->medicine->title); ?>
 	<br />
@@ -32,6 +36,5 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('notes')); ?>:</b>
 	<?php echo CHtml::encode($data->notes); ?>
 	<br />
-
 
 </div>

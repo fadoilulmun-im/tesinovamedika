@@ -1732,3 +1732,65 @@ Stack trace:
 REQUEST_URI=/testdrive/index.php/site/laporan
 HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/site/login
 ---
+2023/04/30 14:37:12 [error] [exception.CException] CException: Property "Action.name" is not defined. in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\handling\view.php(35): CActiveRecord->__get('name')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('view', Array, true)
+#6 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\HandlingController.php(55): CController->render('view', Array)
+#7 [internal function]: HandlingController->actionView('1')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(HandlingController), Array)
+#9 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(HandlingController), Object(ReflectionMethod), Array)
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('view')
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('handling/view')
+#20 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/testdrive/index.php/handling/1
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/handling/create
+---
+2023/04/30 14:39:07 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('region/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php/region/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/Region
+---
+2023/04/30 14:40:24 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('handling/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php/handling/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/Handling
+---

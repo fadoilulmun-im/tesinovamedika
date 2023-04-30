@@ -48,12 +48,11 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'id',
 		'employee_id',
 		'patient_id',
+		'action_id',
 		'medicine_id',
 		'price',
 		'date',
-		/*
 		'notes',
-		*/
 		array(
 			'class'=>'CButtonColumn',
 		),
