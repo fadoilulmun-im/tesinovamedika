@@ -1,0 +1,1712 @@
+2023/04/29 02:33:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2023/04/29 02:34:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "jhtyr". in C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('jhtyr')
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=jhtyr
+---
+2023/04/29 02:34:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gi". in C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('gi')
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gi
+---
+2023/04/29 02:34:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2023/04/29 02:43:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2023/04/29 02:46:30 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in C:\laragon\www\study\tesinovamedika\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\laragon\www\study\tesinovamedika\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\laragon\www\study\tesinovamedika\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\laragon\www\study\tesinovamedika\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\laragon\www\study\tesinovamedika\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CFormModel.php(39): CrudCode->init()
+#6 C:\laragon\www\study\tesinovamedika\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\laragon\www\study\tesinovamedika\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#14 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/testdrive/index.php?r=gii/crud/index
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=gii/default/index
+---
+2023/04/29 03:38:14 [error] [php] Illegal string offset 'name' (C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php:2713)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php(2007): resolveNameID()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CActiveForm.php(915): activeDropDownList()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_form.php(24): CActiveForm->dropDownList()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): KabupatenController->renderInternal()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): KabupatenController->renderFile()
+#6 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\create.php(18): KabupatenController->renderPartial()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): KabupatenController->renderInternal()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): KabupatenController->renderFile()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): KabupatenController->renderPartial()
+#11 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(78): KabupatenController->render()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionCreate()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): KabupatenController->runAction()
+#15 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): KabupatenController->filterAccessControl()
+#18 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): KabupatenController->runActionWithFilters()
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): KabupatenController->run()
+#22 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=kabupaten/create
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_form.php (24)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\create.php (18)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php (78)
+2023/04/29 03:38:26 [error] [php] Object of class Provinsi could not be converted to string (C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php:2598)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php(2009): listOptions()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CActiveForm.php(915): activeDropDownList()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_form.php(24): CActiveForm->dropDownList()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): KabupatenController->renderInternal()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): KabupatenController->renderFile()
+#6 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\create.php(18): KabupatenController->renderPartial()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): KabupatenController->renderInternal()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): KabupatenController->renderFile()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): KabupatenController->renderPartial()
+#11 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(78): KabupatenController->render()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionCreate()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): KabupatenController->runAction()
+#15 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): KabupatenController->filterAccessControl()
+#18 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): KabupatenController->runActionWithFilters()
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): KabupatenController->run()
+#22 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=kabupaten/create
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_form.php (24)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\create.php (18)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php (78)
+2023/04/29 03:43:54 [error] [php] Object of class Provinsi could not be converted to string (C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php:2598)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php(2009): listOptions()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CActiveForm.php(915): activeDropDownList()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_form.php(25): CActiveForm->dropDownList()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): KabupatenController->renderInternal()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): KabupatenController->renderFile()
+#6 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\create.php(18): KabupatenController->renderPartial()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): KabupatenController->renderInternal()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): KabupatenController->renderFile()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): KabupatenController->renderPartial()
+#11 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(78): KabupatenController->render()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionCreate()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): KabupatenController->runAction()
+#15 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): KabupatenController->filterAccessControl()
+#18 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): KabupatenController->runActionWithFilters()
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): KabupatenController->run()
+#22 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=kabupaten/create
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_form.php (25)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\create.php (18)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php (78)
+2023/04/29 03:49:24 [error] [exception.CException] CException: Kabupaten and its behaviors do not have a method or closure named "listType". in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(229): CComponent->__call('listType', Array)
+#1 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_form.php(37): CActiveRecord->__call('listType', Array)
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#5 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#10 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(78): CController->render('create', Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionCreate()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/creat...')
+#22 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/create
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/index
+---
+2023/04/29 03:53:16 [error] [exception.CDbException] CDbException: Relation "provinsi" is not defined in active record class "Kabupaten". in C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php:227
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), 'provinsi')
+#1 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct(Object(Kabupaten), 'provinsi')
+#2 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(1612): CActiveRecord->getActiveFinder('provinsi')
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#8 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#16 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(132): CController->render('index', Array)
+#17 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionIndex()
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#22 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/index')
+#28 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/index
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/view&id=2
+---
+2023/04/29 03:54:52 [error] [exception.CDbException] CDbException: Relation "provinsi" is not defined in active record class "Kabupaten". in C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php:227
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(302): CActiveFinder->buildJoinTree(Object(CJoinElement), 'provinsi', Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct(Object(Kabupaten), Array)
+#3 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(1612): CActiveRecord->getActiveFinder(Array)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#9 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(147): CListView->init()
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#17 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(132): CController->render('index', Array)
+#18 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionIndex()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#21 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#23 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('index')
+#28 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/index')
+#29 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#30 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/index
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/view&id=2
+---
+2023/04/29 03:56:39 [error] [exception.CException] CException: Property "CDbCriteria.columns" is not defined. in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\schema\CDbCriteria.php(160): CComponent->__set('columns', Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(117): CDbCriteria->__construct(Array)
+#2 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(152): CActiveDataProvider->setCriteria(Array)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(96): CComponent->__set('criteria', Array)
+#4 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(127): CActiveDataProvider->__construct('Kabupaten', Array)
+#5 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionIndex()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('index')
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/index')
+#16 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/index
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/view&id=2
+---
+2023/04/29 03:56:52 [error] [exception.CException] CException: Property "CDbCriteria.column" is not defined. in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\schema\CDbCriteria.php(160): CComponent->__set('column', Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(117): CDbCriteria->__construct(Array)
+#2 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(152): CActiveDataProvider->setCriteria(Array)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(96): CComponent->__set('criteria', Array)
+#4 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(127): CActiveDataProvider->__construct('Kabupaten', Array)
+#5 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionIndex()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('index')
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/index')
+#16 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/index
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/view&id=2
+---
+2023/04/29 06:02:53 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "Kabupaten". in C:\laragon\www\study\tesinovamedika\framework\web\CController.php:486
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(270): CController->missingAction('Kabupaten')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('Kabupaten')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Kabupaten')
+#3 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/testdrive/index.php?r=site/Kabupaten
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/admin
+---
+2023/04/29 06:02:59 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "kabupaten". in C:\laragon\www\study\tesinovamedika\framework\web\CController.php:486
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(270): CController->missingAction('kabupaten')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('kabupaten')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('site/kabupaten')
+#3 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/testdrive/index.php?r=site/kabupaten
+---
+2023/04/29 06:03:19 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "provinsi". in C:\laragon\www\study\tesinovamedika\framework\web\CController.php:486
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(270): CController->missingAction('provinsi')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('provinsi')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/provi...')
+#3 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/provinsi
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/admin
+---
+2023/04/29 06:34:51 [error] [exception.CException] CException: Property "CListView.columns" is not defined. in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWidgetFactory.php(161): CComponent->__set('columns', Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(KabupatenController), 'CListView', Array)
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\index.php(18): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#8 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(127): CController->render('index', Array)
+#9 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionIndex()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('Kabupaten')
+#20 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/testdrive/index.php?r=Kabupaten
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=obat/admin
+---
+2023/04/29 06:37:22 [error] [exception.CException] CException: Alias "zii.widgets.CGridView" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\laragon\www\study\tesinovamedika\framework\YiiBase.php:330
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWidgetFactory.php(146): YiiBase::import('zii.widgets.CGr...', true)
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(KabupatenController), 'zii.widgets.CGr...', Array)
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CGr...', Array)
+#3 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\index.php(18): CBaseController->widget('zii.widgets.CGr...', Array)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#8 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(127): CController->render('index', Array)
+#9 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionIndex()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('Kabupaten')
+#20 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/testdrive/index.php?r=Kabupaten
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=obat/admin
+---
+2023/04/29 06:44:56 [error] [exception.CException] CException: Property "Kabupaten.provinsi.nama_provinsi" is not defined. in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(145): CComponent->__get('provinsi.nama_p...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php(2784): CActiveRecord->__get('provinsi.nama_p...')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php(2507): CHtml::resolveValue(Object(Kabupaten), 'provinsi.nama_p...')
+#3 C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php(1554): CHtml::activeInputField('text', Object(Kabupaten), 'provinsi.nama_p...', Array)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CActiveForm.php(793): CHtml::activeTextField(Object(Kabupaten), 'provinsi.nama_p...', Array)
+#5 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_search.php(26): CActiveForm->textField(Object(Kabupaten), 'provinsi.nama_p...')
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php(39): CController->renderPartial('_search', Array)
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#14 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(142): CController->render('admin', Array)
+#15 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionAdmin()
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/admin')
+#26 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/view&id=2
+---
+2023/04/29 06:46:42 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php:1509
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CActiveForm.php(586): CHtml::activeLabel(NULL, 'provinsi.nama_p...', Array)
+#1 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_search.php(25): CActiveForm->label(NULL, 'provinsi.nama_p...')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#5 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php(39): CController->renderPartial('_search', Array)
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#10 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(142): CController->render('admin', Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionAdmin()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/admin')
+#22 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/view&id=2
+---
+2023/04/29 06:47:09 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php:1509
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CActiveForm.php(586): CHtml::activeLabel(NULL, 'provinsi.nama_p...', Array)
+#1 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_search.php(25): CActiveForm->label(NULL, 'provinsi.nama_p...')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#5 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php(39): CController->renderPartial('_search', Array)
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#10 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(142): CController->render('admin', Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionAdmin()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/admin')
+#22 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/view&id=2
+---
+2023/04/29 06:47:10 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php:1509
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CActiveForm.php(586): CHtml::activeLabel(NULL, 'provinsi.nama_p...', Array)
+#1 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\_search.php(25): CActiveForm->label(NULL, 'provinsi.nama_p...')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#5 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php(39): CController->renderPartial('_search', Array)
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#10 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(142): CController->render('admin', Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionAdmin()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/admin')
+#22 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/view&id=2
+---
+2023/04/29 06:49:13 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: bigint ~~ unknown
+LINE 1: ...T COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE '%3%'
+                                                             ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE :ycp0.
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php (44)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php (142)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/29 06:49:13 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: bigint ~~ unknown
+LINE 1: ...T COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE '%3%'
+                                                             ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE :ycp0 in C:\laragon\www\study\tesinovamedika\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\grid\CGridView.php(355): CBaseListView->init()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php(44): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#15 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(142): CController->render('admin', Array)
+#16 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionAdmin()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#21 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#26 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/admin')
+#27 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/testdrive/index.php?Kabupaten%5Bid_kabupaten%5D=&Kabupaten%5Bid_provinsi%5D=3&Kabupaten%5Bnama_kabupaten%5D=&Kabupaten%5Btipe%5D=&ajax=kabupaten-grid&r=kabupaten%2Fadmin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/admin
+---
+2023/04/29 06:49:47 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: bigint ~~ unknown
+LINE 1: ...T COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE '%ret...
+                                                             ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE :ycp0.
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php (44)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php (142)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/29 06:49:47 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: bigint ~~ unknown
+LINE 1: ...T COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE '%ret...
+                                                             ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE :ycp0 in C:\laragon\www\study\tesinovamedika\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\grid\CGridView.php(355): CBaseListView->init()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php(44): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#15 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(142): CController->render('admin', Array)
+#16 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionAdmin()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#21 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#26 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/admin')
+#27 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/testdrive/index.php?Kabupaten%5Bid_kabupaten%5D=&Kabupaten%5Bid_provinsi%5D=ret&Kabupaten%5Bnama_kabupaten%5D=&Kabupaten%5Btipe%5D=&ajax=kabupaten-grid&r=kabupaten%2Fadmin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/admin
+---
+2023/04/29 06:49:51 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: bigint ~~ unknown
+LINE 1: ...T COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE '%2%'
+                                                             ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE :ycp0.
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php (44)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php (142)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/29 06:49:51 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: bigint ~~ unknown
+LINE 1: ...T COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE '%2%'
+                                                             ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE :ycp0 in C:\laragon\www\study\tesinovamedika\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\grid\CGridView.php(355): CBaseListView->init()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php(44): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#15 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(142): CController->render('admin', Array)
+#16 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionAdmin()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#21 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#26 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/admin')
+#27 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/testdrive/index.php?Kabupaten%5Bid_kabupaten%5D=&Kabupaten%5Bid_provinsi%5D=2&Kabupaten%5Bnama_kabupaten%5D=&Kabupaten%5Btipe%5D=&ajax=kabupaten-grid&r=kabupaten%2Fadmin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/admin
+---
+2023/04/29 06:52:38 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: bigint ~~ unknown
+LINE 1: ...T COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE '%3\\...
+                                                             ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE :ycp0.
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php (44)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php (142)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/29 06:52:38 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: bigint ~~ unknown
+LINE 1: ...T COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE '%3\\...
+                                                             ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "kabupaten" "t" WHERE id_provinsi LIKE :ycp0 in C:\laragon\www\study\tesinovamedika\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\grid\CGridView.php(355): CBaseListView->init()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\kabupaten\admin.php(44): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#15 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\KabupatenController.php(142): CController->render('admin', Array)
+#16 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): KabupatenController->actionAdmin()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#21 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#26 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/admin')
+#27 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/testdrive/index.php?Kabupaten%5Bid_kabupaten%5D=&Kabupaten%5Bid_provinsi%5D=3%5C&Kabupaten%5Bnama_kabupaten%5D=&Kabupaten%5Btipe%5D=&Kabupaten_page=1&ajax=kabupaten-grid&r=kabupaten%2Fadmin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/admin
+---
+2023/04/29 07:23:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[2BP01]: Dependent objects still exist: 7 ERROR:  cannot drop table wilayah because other objects depend on it
+DETAIL:  constraint FK_wilayah_kelurahan on table kelurahan depends on table wilayah
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.. The SQL statement executed was: DROP TABLE "wilayah".
+2023/04/29 07:25:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "("
+LINE 4:  "id_kelurahan" int(11) NOT NULL
+                           ^. The SQL statement executed was: CREATE TABLE "wilayah" (
+	"id" serial NOT NULL PRIMARY KEY,
+	"title" character varying (255) NOT NULL,
+	"id_kelurahan" int(11) NOT NULL
+).
+2023/04/29 07:27:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "id" referenced in foreign key constraint does not exist. The SQL statement executed was: ALTER TABLE "wilayah" ADD CONSTRAINT "FK_wilayah_kelurahan" FOREIGN KEY ("id_kelurahan") REFERENCES "kelurahan" ("id") ON DELETE CASCADE ON UPDATE CASCADE.
+2023/04/29 07:27:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "id" referenced in foreign key constraint does not exist. The SQL statement executed was: ALTER TABLE "wilayah" ADD CONSTRAINT "FK_wilayah_kelurahan" FOREIGN KEY ("id_kelurahan") REFERENCES "kelurahan" ("id") ON DELETE CASCADE ON UPDATE CASCADE.
+2023/04/29 11:14:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "kabupaten/admin". in C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('kabupaten/admin')
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=kabupaten/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=kabupaten/index
+---
+2023/04/30 02:02:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[2BP01]: Dependent objects still exist: 7 ERROR:  cannot drop table regions because other objects depend on it
+DETAIL:  constraint fk_employees_region_id on table employees depends on table regions
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.. The SQL statement executed was: DROP TABLE "regions".
+2023/04/30 02:03:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[2BP01]: Dependent objects still exist: 7 ERROR:  cannot drop table regions because other objects depend on it
+DETAIL:  constraint fk_employees_region_id on table employees depends on table regions
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.. The SQL statement executed was: DROP TABLE "regions".
+2023/04/30 02:52:18 [error] [exception.CException] CException: Employee and its behaviors do not have a method or closure named "select". in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(229): CComponent->__call('select', Array)
+#1 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php(8): CActiveRecord->__call('select', Array)
+#2 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): LaporanController->actionIndex()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('laporan')
+#8 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/testdrive/index.php?r=laporan
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php
+---
+2023/04/30 03:00:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "pegawai". in C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('pegawai')
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=pegawai
+---
+2023/04/30 03:03:34 [error] [exception.CException] CException: Property "CDbCriteria.region_id" is not defined. in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\schema\CDbCriteria.php(160): CComponent->__set('region_id', 1)
+#1 C:\laragon\www\study\tesinovamedika\framework\db\schema\CDbCommandBuilder.php(588): CDbCriteria->__construct(Array)
+#2 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(1605): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php(11): CActiveRecord->count(Array)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): LaporanController->actionIndex()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('laporan')
+#10 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/testdrive/index.php?r=laporan
+---
+2023/04/30 03:03:35 [error] [exception.CException] CException: Property "CDbCriteria.region_id" is not defined. in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\schema\CDbCriteria.php(160): CComponent->__set('region_id', 1)
+#1 C:\laragon\www\study\tesinovamedika\framework\db\schema\CDbCommandBuilder.php(588): CDbCriteria->__construct(Array)
+#2 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(1605): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php(11): CActiveRecord->count(Array)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): LaporanController->actionIndex()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('laporan')
+#10 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/testdrive/index.php?r=laporan
+---
+2023/04/30 03:04:49 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...LECT COUNT(*) FROM "employees" "t" WHERE region_id:region_id
+                                                             ^. The SQL statement executed was: SELECT COUNT(*) FROM "employees" "t" WHERE region_id:region_id.
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php (11)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/30 03:04:49 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...LECT COUNT(*) FROM "employees" "t" WHERE region_id:region_id
+                                                             ^. The SQL statement executed was: SELECT COUNT(*) FROM "employees" "t" WHERE region_id:region_id in C:\laragon\www\study\tesinovamedika\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php(11): CActiveRecord->count('region_id:regio...', Array)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): LaporanController->actionIndex()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('laporan')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=laporan
+---
+2023/04/30 03:15:05 [error] [php] Trying to get property 'id' of non-object (C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php:11)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): LaporanController->actionIndex()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): LaporanController->runAction()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): LaporanController->runActionWithFilters()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): LaporanController->run()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=laporan
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php (11)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/30 03:15:28 [error] [php] Illegal string offset 'id' (C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php:11)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): LaporanController->actionIndex()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): LaporanController->runAction()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): LaporanController->runActionWithFilters()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): LaporanController->run()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=laporan
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php (11)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/30 03:17:01 [error] [php] Array to string conversion (C:\laragon\www\study\tesinovamedika\testdrive\protected\views\laporan\index.php:20)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): LaporanController->renderInternal()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): LaporanController->renderFile()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): LaporanController->renderPartial()
+#4 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php(26): LaporanController->render()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): LaporanController->actionIndex()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): LaporanController->runAction()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): LaporanController->runActionWithFilters()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): LaporanController->run()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=laporan
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\laporan\index.php (20)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php (26)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/30 03:17:32 [error] [php] Array to string conversion (C:\laragon\www\study\tesinovamedika\testdrive\protected\views\laporan\index.php:24)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): LaporanController->renderInternal()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): LaporanController->renderFile()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): LaporanController->renderPartial()
+#4 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php(26): LaporanController->render()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): LaporanController->actionIndex()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): LaporanController->runAction()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): LaporanController->runActionWithFilters()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): LaporanController->run()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=laporan
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\laporan\index.php (24)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php (26)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/30 03:22:34 [error] [php] Array to string conversion (C:\laragon\www\study\tesinovamedika\testdrive\protected\views\laporan\index.php:17)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): LaporanController->renderInternal()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): LaporanController->renderFile()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): LaporanController->renderPartial()
+#4 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php(26): LaporanController->render()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): LaporanController->actionIndex()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): LaporanController->runAction()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): LaporanController->runActionWithFilters()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): LaporanController->run()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=laporan
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\laporan\index.php (17)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\LaporanController.php (26)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/30 04:04:52 [error] [php] include(Regions.php): failed to open stream: No such file or directory (C:\laragon\www\study\tesinovamedika\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(397): spl_autoload_call()
+#3 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(182): model()
+#4 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(231): CActiveFinder->getModel()
+#5 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#6 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct()
+#7 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(282): Employee->getActiveFinder()
+#8 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(143): Employee->getRelated()
+#9 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\employee\_view.php(29): Employee->__get()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(130): require()
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): EmployeeController->renderInternal()
+#12 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CListView.php(291): EmployeeController->renderFile()
+#13 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(181): CListView->renderItems()
+#14 unknown(0): CListView->renderSection()
+#15 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#16 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(149): CListView->renderContent()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(182): CListView->run()
+#18 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\employee\index.php(19): EmployeeController->widget()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): EmployeeController->renderInternal()
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): EmployeeController->renderFile()
+#22 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): EmployeeController->renderPartial()
+#23 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\EmployeeController.php(127): EmployeeController->render()
+#24 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): EmployeeController->actionIndex()
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#26 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): EmployeeController->runAction()
+#27 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#29 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): EmployeeController->filterAccessControl()
+#30 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#31 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#32 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): EmployeeController->runActionWithFilters()
+#33 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): EmployeeController->run()
+#34 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#35 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#36 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=employee/index
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\employee\_view.php (29)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\employee\index.php (19)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\EmployeeController.php (127)
+2023/04/30 04:05:27 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=employee/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=employee/index
+---
+2023/04/30 04:05:36 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=employee/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=employee/index
+---
+2023/04/30 04:05:47 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=User
+---
+2023/04/30 04:05:55 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('medicine/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=medicine/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=Medicine
+---
+2023/04/30 04:12:24 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "actions" already exists. The SQL statement executed was: CREATE TABLE "actions" (
+	"id" serial NOT NULL PRIMARY KEY,
+	"title" character varying (255) NOT NULL,
+	"description" text NOT NULL
+).
+2023/04/30 04:18:07 [error] [php] include(Regions.php): failed to open stream: No such file or directory (C:\laragon\www\study\tesinovamedika\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(397): spl_autoload_call()
+#3 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(182): model()
+#4 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(231): CActiveFinder->getModel()
+#5 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#6 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct()
+#7 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(282): Patient->getActiveFinder()
+#8 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(143): Patient->getRelated()
+#9 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\patient\view.php(31): Patient->__get()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): PatientController->renderInternal()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): PatientController->renderFile()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): PatientController->renderPartial()
+#14 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\PatientController.php(55): PatientController->render()
+#15 unknown(0): PatientController->actionView()
+#16 C:\laragon\www\study\tesinovamedika\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): PatientController->runAction()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#22 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): PatientController->filterAccessControl()
+#23 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#24 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): PatientController->runActionWithFilters()
+#26 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): PatientController->run()
+#27 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=patient/view&id=1
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\patient\view.php (31)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\PatientController.php (55)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/30 09:03:25 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('region/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=region/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=Region
+---
+2023/04/30 09:14:05 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=user/index
+---
+2023/04/30 09:25:40 [error] [exception.CException] CException: Property "UserIdentity.users" is not defined. in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\testdrive\protected\components\UserIdentity.php(26): CComponent->__get('users')
+#1 C:\laragon\www\study\tesinovamedika\testdrive\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#2 C:\laragon\www\study\tesinovamedika\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\laragon\www\study\tesinovamedika\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\laragon\www\study\tesinovamedika\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#5 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/testdrive/index.php?r=site/login
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=site/login
+---
+2023/04/30 09:29:50 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=User
+---
+2023/04/30 09:33:46 [error] [exception.CException] CException: CWebUser and its behaviors do not have a method or closure named "isAdmin". in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614) : eval()'d code(1): CComponent->__call('isAdmin', Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614): eval()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(393): CComponent->evaluateExpression('Yii::app()->use...', Array)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(289): CAccessRule->isExpressionMatched(Object(CWebUser))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(138): CAccessRule->isUserAllowed(Object(CWebUser), Object(UserController), Object(CInlineAction), '127.0.0.1', 'GET')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#13 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=User
+---
+2023/04/30 09:42:40 [error] [exception.CException] CException: CWebUser and its behaviors do not have a method or closure named "isAdmin". in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614) : eval()'d code(1): CComponent->__call('isAdmin', Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614): eval()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(393): CComponent->evaluateExpression('Yii::app()->use...', Array)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(289): CAccessRule->isExpressionMatched(Object(CWebUser))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(138): CAccessRule->isUserAllowed(Object(CWebUser), Object(UserController), Object(CInlineAction), '127.0.0.1', 'GET')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#13 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+---
+2023/04/30 09:44:37 [error] [exception.CException] CException: CWebUser and its behaviors do not have a method or closure named "isAdmin". in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614) : eval()'d code(1): CComponent->__call('isAdmin', Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614): eval()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(393): CComponent->evaluateExpression('Yii::app()->use...', Array)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(289): CAccessRule->isExpressionMatched(Object(CWebUser))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(138): CAccessRule->isUserAllowed(Object(CWebUser), Object(UserController), Object(CInlineAction), '127.0.0.1', 'GET')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#13 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=User
+---
+2023/04/30 09:44:39 [error] [exception.CException] CException: CWebUser and its behaviors do not have a method or closure named "isAdmin". in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614) : eval()'d code(1): CComponent->__call('isAdmin', Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614): eval()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(393): CComponent->evaluateExpression('Yii::app()->use...', Array)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(289): CAccessRule->isExpressionMatched(Object(CWebUser))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(138): CAccessRule->isUserAllowed(Object(CWebUser), Object(UserController), Object(CInlineAction), '127.0.0.1', 'GET')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#13 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+---
+2023/04/30 09:47:29 [error] [exception.CException] CException: CWebUser and its behaviors do not have a method or closure named "isAdmin". in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614) : eval()'d code(1): CComponent->__call('isAdmin', Array)
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614): eval()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(393): CComponent->evaluateExpression('Yii::app()->use...', Array)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(289): CAccessRule->isExpressionMatched(Object(CWebUser))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(138): CAccessRule->isUserAllowed(Object(CWebUser), Object(UserController), Object(CInlineAction), '127.0.0.1', 'GET')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#13 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=User
+---
+2023/04/30 09:55:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "admin/login". in C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=admin/login
+---
+2023/04/30 09:55:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "admin/login". in C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=admin/login
+---
+2023/04/30 09:55:47 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=site/login
+---
+2023/04/30 09:56:07 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=site/login
+---
+2023/04/30 09:56:51 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=site/login
+---
+2023/04/30 09:57:01 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=User
+---
+2023/04/30 09:57:14 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=User
+---
+2023/04/30 09:57:52 [error] [php] Object of class WebUser could not be converted to string (C:\laragon\www\study\tesinovamedika\testdrive\protected\components\WebUser.php:8)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614) : eval()'d code(1): WebUser->isAdmin()
+#1 C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php(614): eval()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(393): CAccessRule->evaluateExpression()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(289): CAccessRule->isExpressionMatched()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(138): CAccessRule->isUserAllowed()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): UserController->run()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=user/admin
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\components\WebUser.php (8)
+in C:\laragon\www\study\tesinovamedika\testdrive\index.php (13)
+2023/04/30 10:02:24 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+---
+2023/04/30 10:07:41 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=User
+---
+2023/04/30 10:14:11 [error] [php] Undefined variable: urlManager (C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php:32)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): RegionController->renderInternal()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(76): RegionController->renderFile()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(215): CContentDecorator->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(309): RegionController->endWidget()
+#7 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column2.php(22): RegionController->endContent()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): RegionController->renderInternal()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(787): RegionController->renderFile()
+#11 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\RegionController.php(127): RegionController->render()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): RegionController->actionIndex()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): RegionController->runAction()
+#15 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): RegionController->filterAccessControl()
+#18 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): RegionController->runActionWithFilters()
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): RegionController->run()
+#22 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=Region
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php (32)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column2.php (22)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\RegionController.php (127)
+2023/04/30 10:15:11 [error] [exception.Error] Error: Call to a member function getPathInfo() on string in C:\laragon\www\study\tesinovamedika\framework\web\CUrlManager.php:366
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php(36): CUrlManager->parseUrl('/site/index')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\SiteController.php(32): CController->render('index')
+#13 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/testdrive/index.php
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=Region
+---
+2023/04/30 10:17:28 [error] [exception.Error] Error: Call to a member function getPathInfo() on string in C:\laragon\www\study\tesinovamedika\framework\web\CUrlManager.php:366
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php(32): CUrlManager->parseUrl('')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\SiteController.php(32): CController->render('index')
+#13 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/testdrive/index.php
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php?r=Region
+---
+2023/04/30 10:19:11 [error] [exception.Error] Error: Call to a member function getPathInfo() on string in C:\laragon\www\study\tesinovamedika\framework\web\CUrlManager.php:366
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php(32): CUrlManager->parseUrl('')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\SiteController.php(32): CController->render('index')
+#13 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/testdrive/index.php
+---
+2023/04/30 10:19:31 [error] [exception.Error] Error: Call to a member function getPathInfo() on string in C:\laragon\www\study\tesinovamedika\framework\web\CUrlManager.php:366
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php(32): CUrlManager->parseUrl('')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\SiteController.php(32): CController->render('index')
+#13 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/testdrive/index.php
+---
+2023/04/30 10:19:50 [error] [exception.Error] Error: Call to a member function getPathInfo() on string in C:\laragon\www\study\tesinovamedika\framework\web\CUrlManager.php:366
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php(32): CUrlManager->parseUrl('')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\laragon\www\study\tesinovamedika\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\SiteController.php(32): CController->render('index')
+#13 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/testdrive/index.php
+---
+2023/04/30 10:20:25 [error] [php] Undefined variable: currentUrl (C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php:34)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(215): CContentDecorator->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(309): SiteController->endWidget()
+#7 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column1.php(6): SiteController->endContent()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(787): SiteController->renderFile()
+#11 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\SiteController.php(32): SiteController->render()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): SiteController->runAction()
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): SiteController->run()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php (34)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column1.php (6)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\SiteController.php (32)
+2023/04/30 10:23:47 [error] [php] Undefined variable: urlManager (C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php:36)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#3 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#4 C:\laragon\www\study\tesinovamedika\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(215): CContentDecorator->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(309): SiteController->endWidget()
+#7 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column1.php(6): SiteController->endContent()
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#9 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(787): SiteController->renderFile()
+#11 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\SiteController.php(32): SiteController->render()
+#12 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(286): SiteController->runAction()
+#15 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): SiteController->run()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php?r=site/login
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\main.php (36)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\layouts\column1.php (6)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\SiteController.php (32)
+2023/04/30 10:46:29 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('employee/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php/employee/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/Employee
+---
+2023/04/30 10:47:43 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('medicine/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php/medicine/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/Medicine
+---
+2023/04/30 10:49:20 [error] [php] include(Employees.php): failed to open stream: No such file or directory (C:\laragon\www\study\tesinovamedika\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(397): spl_autoload_call()
+#3 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(182): model()
+#4 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(231): CActiveFinder->getModel()
+#5 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#6 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct()
+#7 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(282): Handling->getActiveFinder()
+#8 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(143): Handling->getRelated()
+#9 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\handling\_view.php(13): Handling->__get()
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(130): require()
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): HandlingController->renderInternal()
+#12 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CListView.php(291): HandlingController->renderFile()
+#13 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(181): CListView->renderItems()
+#14 unknown(0): CListView->renderSection()
+#15 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#16 C:\laragon\www\study\tesinovamedika\framework\zii\widgets\CBaseListView.php(149): CListView->renderContent()
+#17 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(182): CListView->run()
+#18 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\handling\index.php(19): HandlingController->widget()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require()
+#20 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): HandlingController->renderInternal()
+#21 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): HandlingController->renderFile()
+#22 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): HandlingController->renderPartial()
+#23 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\HandlingController.php(128): HandlingController->render()
+#24 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): HandlingController->actionIndex()
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams()
+#26 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): HandlingController->runAction()
+#27 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#29 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): HandlingController->filterAccessControl()
+#30 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#31 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#32 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): HandlingController->runActionWithFilters()
+#33 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): HandlingController->run()
+#34 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#35 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#36 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php/Handling
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\handling\_view.php (13)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\views\handling\index.php (19)
+in C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\HandlingController.php (128)
+2023/04/30 10:58:20 [error] [exception.CException] CException: Property "Handling.employee.name" is not defined. in C:\laragon\www\study\tesinovamedika\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\db\ar\CActiveRecord.php(145): CComponent->__get('employee.name')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php(2784): CActiveRecord->__get('employee.name')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php(2507): CHtml::resolveValue(Object(Handling), 'employee.name')
+#3 C:\laragon\www\study\tesinovamedika\framework\web\helpers\CHtml.php(1554): CHtml::activeInputField('text', Object(Handling), 'employee.name', Array)
+#4 C:\laragon\www\study\tesinovamedika\framework\web\widgets\CActiveForm.php(793): CHtml::activeTextField(Object(Handling), 'employee.name', Array)
+#5 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\handling\_search.php(21): CActiveForm->textField(Object(Handling), 'employee.name')
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\study\tesinovamedika\testdrive\protected\views\handling\admin.php(39): CController->renderPartial('_search', Array)
+#10 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#11 C:\laragon\www\study\tesinovamedika\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#13 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#14 C:\laragon\www\study\tesinovamedika\testdrive\protected\controllers\HandlingController.php(143): CController->render('admin', Array)
+#15 C:\laragon\www\study\tesinovamedika\framework\web\actions\CInlineAction.php(49): HandlingController->actionAdmin()
+#16 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#20 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('handling/admin')
+#26 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#27 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/testdrive/index.php/handling/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/handling/index
+---
+2023/04/30 11:14:17 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\study\tesinovamedika\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\study\tesinovamedika\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php/user/admin
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/User
+---
