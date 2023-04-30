@@ -1710,3 +1710,25 @@ Stack trace:
 REQUEST_URI=/testdrive/index.php/user/admin
 HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/User
 ---
+2023/04/30 11:26:56 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "laporan". in C:\laragon\www\study\tesinovamedika\framework\web\CController.php:486
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(270): CController->missingAction('laporan')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('laporan')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('site/laporan')
+#3 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/testdrive/index.php/site/laporan
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/site/login
+---
+2023/04/30 11:27:21 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "laporan". in C:\laragon\www\study\tesinovamedika\framework\web\CController.php:486
+Stack trace:
+#0 C:\laragon\www\study\tesinovamedika\framework\web\CController.php(270): CController->missingAction('laporan')
+#1 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(282): CController->run('laporan')
+#2 C:\laragon\www\study\tesinovamedika\framework\web\CWebApplication.php(141): CWebApplication->runController('site/laporan')
+#3 C:\laragon\www\study\tesinovamedika\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\study\tesinovamedika\testdrive\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/testdrive/index.php/site/laporan
+HTTP_REFERER=http://tesinovamedika.test/testdrive/index.php/site/login
+---
